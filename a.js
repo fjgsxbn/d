@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 async function run(){
-  let hbmap=hb();
+  let hbmap=await hb();
   let text = '';
   hbmap.forEach((value, key) => {
    text += `${key},${value}\n`; // 每行格式：key=value，加换行符
