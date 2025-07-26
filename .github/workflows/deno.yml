@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: 执行JS脚本
-        run: node your-script.js  # 替换为你的JS文件路径
+        run: node a.js  # 替换为你的JS文件路径
 
       - name: 提交变更
         uses: stefanzweifel/git-auto-commit-action@v5
