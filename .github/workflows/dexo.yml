@@ -8,7 +8,7 @@ on:
 
 jobs:
   run-js-and-commit:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: 检出代码1
