@@ -2,9 +2,17 @@ run()
 async function run(){
 
   let r= await fetch('https://api.cmc.hebtv.com/scms/api/com/article/getArticleList?catalogId=32557&siteId=1')
-  let j = await r.json()
-  console.log(j)
-
+  let bac = await r.json()
+  console.log(bac)
+  if (bac.returnCode !== '0000') return;
+  var newsArr = bac.returnData.news;
+  for(var i=0;i<newsArr.length;i++){
+    let item=newsArr[i];
+    //if (item.id==articleRadioId) {
+    //playIndex=i;
+    let url = linkToMd5(item);
+    console.log(url)
+  }
 }
 
 
