@@ -6,7 +6,7 @@ async function run(){
   hbmap.forEach((value, key) => {
    text += `${key},${value}\n`; // 每行格式：key=value，加换行符
  });
-  fs.writeFile('tv.txt',text)
+  fs.writeFileSync('tv.txt',text)
   
 }
 async function hb(){
