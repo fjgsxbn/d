@@ -8,13 +8,13 @@ on:
 
 jobs:
   run-js-and-commit:
-    runs-on: macos-latest
+    runs-on: windows-latest
 
     steps:
-      - name: 检出代码
+      - name: 检出代码1
         uses: actions/checkout@v4
 
-      - name: 配置Node.js
+      - name: 配置Node.js2
         uses: actions/setup-node@v4
         with:
           node-version: 20.x
