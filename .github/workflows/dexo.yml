@@ -3,7 +3,7 @@ name: 每10分钟执行JS并提交
 # 触发条件：仅每隔10分钟执行
 on:
   schedule:
-    - cron: '*/10 * * * *'  # cron表达式：每10分钟触发一次
+    - cron: '*/15 * * * *'  # cron表达式：每10分钟触发一次
   workflow_dispatch:  # 保留手动触发（可选）
 
 jobs:
