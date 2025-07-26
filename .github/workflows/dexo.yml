@@ -19,8 +19,8 @@ jobs:
         with:
           node-version: 20.x
 
-      - name: 安装依赖（如需）
-        run: npm install
+      #- name: 安装依赖（如需）
+       # run: npm install
 
       - name: 执行JS脚本
         run: node a.js  # 替换为你的JS文件路径
