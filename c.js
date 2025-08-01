@@ -1,6 +1,6 @@
 let a=[{
-  name:"",
-  url:""
+  name:"CGTN",
+  url:"https://0472.org/hls/cgtn.m3u8"
 }]
 
 function d(){
