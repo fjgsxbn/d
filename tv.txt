@@ -1,8 +1,8 @@
-河北卫视,https://tv.pull.hebtv.com/jishi/weishipindao.m3u8?t=1754174420&k=9dd111126a1f0623e63e70f054bb0047
-经济生活,https://tv.pull.hebtv.com/jishi/jingjishenghuo.m3u8?t=1754174420&k=81f854ddc6749176a8f384fe991d9b00
-三农频道,https://tv.pull.hebtv.com/jishi/nongminpindao.m3u8?t=1754174420&k=01f44e0860098c926364f7cb86466016
-河北都市,https://tv.pull.hebtv.com/jishi/dushipindao.m3u8?t=1754174420&k=e97117c160a4d0743536727a05c8b93c
-河北影视剧,https://tv.pull.hebtv.com/zhibo/yingshijupindao.m3u8?t=1754174420&k=0b45c11b1c0527d79832cb03494ad683
-少儿科教,https://tv.pull.hebtv.com/jishi/shaoerkejiao.m3u8?t=1754174420&k=d3330c5b3f77117c0902acd8430f1ced
-文旅·公共,https://tv.pull.hebtv.com/jishi/gonggongpindao.m3u8?t=1754174420&k=8d3c3cea7ebe8ed0887674fa07c2753d
-三佳购物,https://tv.pull.hebtv.com/zhibo/sanjiagouwu.m3u8?t=1754174420&k=b40e4369c712c30663b79da91d52dd6a
+河北卫视,https://tv.pull.hebtv.com/jishi/weishipindao.m3u8?t=1754175274&k=49c2080954c0ff551ae9e1c39c82e00d
+经济生活,https://tv.pull.hebtv.com/jishi/jingjishenghuo.m3u8?t=1754175274&k=0eab946aa7d0f6ab9f344b0d31c49d47
+三农频道,https://tv.pull.hebtv.com/jishi/nongminpindao.m3u8?t=1754175274&k=4bc7ba067abd1dea4161daf15c5b110c
+河北都市,https://tv.pull.hebtv.com/jishi/dushipindao.m3u8?t=1754175274&k=a6cc63497d16c4cd29b03033dc38a08e
+河北影视剧,https://tv.pull.hebtv.com/zhibo/yingshijupindao.m3u8?t=1754175274&k=b1fad7fdf22c8ecd972dc362d41890e8
+少儿科教,https://tv.pull.hebtv.com/jishi/shaoerkejiao.m3u8?t=1754175274&k=8e9871eecadae03d57acd63f27e8743b
+文旅·公共,https://tv.pull.hebtv.com/jishi/gonggongpindao.m3u8?t=1754175274&k=09e6fd5953f590f4c96db796bbe4ec20
+三佳购物,https://tv.pull.hebtv.com/zhibo/sanjiagouwu.m3u8?t=1754175274&k=ddb79f32c0107fe33d8337c191d521af
