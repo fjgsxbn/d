@@ -1,4 +1,4 @@
-let a=[{
+var a=[{
   name:"CGTN",
   url:"https://0472.org/hls/cgtn.m3u8"
 }];
