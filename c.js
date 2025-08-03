@@ -4,6 +4,6 @@ let a=[{
 }]
 
 function d(){
-  return JSON.stringify(a)
+  return JSON.stringify(a);
 }
 d()
