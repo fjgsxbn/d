@@ -1,5 +1,42 @@
 
-async function hb(){
+function hb(onsucc){
+// 1. 创建 XMLHttpRequest 实例
+const xhr = new XMLHttpRequest();
+
+// 2. 配置请求（方法、URL、是否异步）
+xhr.open('GET', 'https://api.example.com/data', true); // 第三个参数 true 表示异步请求
+
+// 3. 设置请求头（如果需要，比如指定接收 JSON）
+xhr.setRequestHeader('Accept', 'application/json');
+
+// 4. 监听请求状态变化
+xhr.onreadystatechange = function() {
+  // readyState 4 表示请求已完成，status 200 表示请求成功
+  if (xhr.readyState === 4) {
+    if (xhr.status === 200) {
+      try {
+        // 解析返回的 JSON 字符串为 JavaScript 对象
+        const jsonData = JSON.parse(xhr.responseText);
+        console.log('请求成功，JSON 数据：', jsonData);
+        // 这里可以使用解析后的 jsonData（例如渲染页面）
+        onsucc(jsonData)
+      } catch (e) {
+        console.error('JSON 解析失败：', e);
+      }
+    } else {
+      // 处理 HTTP 错误（如 404、500 等）
+      console.error('请求失败，状态码：', xhr.status);
+    }
+  }
+};
+
+// 5. 监听网络错误（如断网）
+xhr.onerror = function() {
+  console.error('网络错误，无法完成请求');
+};
+
+// 6. 发送请求（GET 请求无请求体，传 null）
+xhr.send(null);
 
 let arr=[]
   let r= await fetch('https://api.cmc.hebtv.com/scms/api/com/article/getArticleList?catalogId=32557&siteId=1')
@@ -36,7 +73,8 @@ var _0x2fdf=['getTime','liveVideo','formats','url','indexOf','&t=','&k=','appCus
 
 
 const intervalId = setInterval(() => {
+  hb(function(message){
     AndroidCallback.onTimerUpdate(message);
-                 
+             }    
       
  }, 1500);
