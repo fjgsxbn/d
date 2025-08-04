@@ -16,10 +16,27 @@ xhr.onreadystatechange = function() {
     if (xhr.status === 200) {
       try {
         // 解析返回的 JSON 字符串为 JavaScript 对象
-        const jsonData = JSON.parse(xhr.responseText);
-        console.log('请求成功，JSON 数据：', jsonData);
+        const bac = JSON.parse(xhr.responseText);
+        console.log('请求成功，JSON 数据：', bac);
         // 这里可以使用解析后的 jsonData（例如渲染页面）
-        onsucc(jsonData)
+        console.log(bac)
+        let arr=[]
+  if (bac.returnCode !== '0000') return arr;
+  var newsArr = bac.returnData.news;
+  for(var i=0;i<newsArr.length;i++){
+    let item=newsArr[i];
+    //if (item.id==articleRadioId) {
+    //playIndex=i;
+    let url = linkToMd5(item);
+    console.log(url)
+      let e ={}
+    e.name=item.title
+      e.url=url
+      arr.push(e)
+    
+  }
+  onsucc(JSON.stringify(arr))
+        
       } catch (e) {
         console.error('JSON 解析失败：', e);
       }
