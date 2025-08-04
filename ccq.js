@@ -4,7 +4,7 @@ function hb(onsucc){
 const xhr = new XMLHttpRequest();
 
 // 2. 配置请求（方法、URL、是否异步）
-xhr.open('GET', 'https://api.example.com/data', true); // 第三个参数 true 表示异步请求
+xhr.open('GET', 'https://api.cmc.hebtv.com/scms/api/com/article/getArticleList?catalogId=32557&siteId=1', true); // 第三个参数 true 表示异步请求
 
 // 3. 设置请求头（如果需要，比如指定接收 JSON）
 xhr.setRequestHeader('Accept', 'application/json');
