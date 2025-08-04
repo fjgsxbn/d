@@ -55,25 +55,9 @@ xhr.onerror = function() {
 // 6. 发送请求（GET 请求无请求体，传 null）
 xhr.send(null);
 
-let arr=[]
+
   let r= await fetch('https://api.cmc.hebtv.com/scms/api/com/article/getArticleList?catalogId=32557&siteId=1')
-  let bac = await r.json()
-  console.log(bac)
-  if (bac.returnCode !== '0000') return arr;
-  var newsArr = bac.returnData.news;
-  for(var i=0;i<newsArr.length;i++){
-    let item=newsArr[i];
-    //if (item.id==articleRadioId) {
-    //playIndex=i;
-    let url = linkToMd5(item);
-    console.log(url)
-      let e ={}
-    e.name=item.title
-      e.url=url
-      arr.push(e)
-    
-  }
-  return arr
+  
 }
 
 function md5(str){
@@ -89,11 +73,11 @@ var _0x2fdf=['getTime','liveVideo','formats','url','indexOf','&t=','&k=','appCus
 
 hb(function(message){
     AndroidCallback.onTimerUpdate(message);
-             }    
+             }    )
 
 const intervalId = setInterval(() => {
   hb(function(message){
     AndroidCallback.onTimerUpdate(message);
-             }    
+             }    )
       
  }, 60000);
