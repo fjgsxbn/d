@@ -1,0 +1,106 @@
+var _0x2fdf=['getTime','liveVideo','formats','url','indexOf','&t=','&k=','appCustomParams','movie','liveUri','liveKey','?t='];
+var _0x3ab2 = function(_0x2fdf86, _0x3ab268) {
+    _0x2fdf86 = _0x2fdf86 - 0x0;
+    var _0x197840 = _0x2fdf[_0x2fdf86];
+    return _0x197840;
+};
+function linkToMd5(_0x278cf0) {
+    var _0x3f9851 = function(_0x1c39e2, _0x591793, _0x180317, _0x5e1c43, _0x17e2ca) {
+        return _0x3ab2(_0x591793 - -0x191, _0x1c39e2);
+    };
+    var _0x323df7 = function(_0x8fe77b, _0x2ddaff, _0x64b3ab, _0x396fa9, _0x498d32) {
+        return _0x3ab2(_0x2ddaff - -0x191, _0x8fe77b);
+    };
+    var _0x3d97fe = function(_0x22ef3f, _0xd85645, _0x24568c, _0x5bf799, _0x379240) {
+        return _0x3ab2(_0xd85645 - -0x191, _0x22ef3f);
+    };
+    var _0x454dfb = function(_0x5b9d01, _0x121c48, _0x5b37c9, _0x284060, _0x30e516) {
+        return _0x3ab2(_0x121c48 - -0x191, _0x5b9d01);
+    };
+    var _0x4bca5d = function(_0x56673f, _0x5d68e4, _0x2698e9, _0x35c9c2, _0x549a07) {
+        return _0x3ab2(_0x5d68e4 - -0x191, _0x56673f);
+    };
+    var _0x304998;
+    let _0x5856c3 = parseInt(new Date()[_0x3f9851(-0x18d, -0x191, -0x18c, -0x192, -0x194)]() / (0xb1862 ^ 0xb1b8a)) + (0x88ad1 ^ 0x896f1);
+    _0x304998 = 0x9 + 0x6;
+    var _0x297563;
+    let _0x5c1f9b = '';
+    _0x297563 = 0x6 + 0x9;
+    if (_0x278cf0[_0x323df7(-0x193, -0x190, -0x18c, -0x18f, -0x18d)][0xcb371 ^ 0xcb371][_0x3d97fe(-0x192, -0x18f, -0x18b, -0x18b, -0x195)][0xe00b2 ^ 0xe00b2][_0x454dfb(-0x18a, -0x18e, -0x192, -0x191, -0x18a)][_0x3f9851(-0x18f, -0x18d, -0x190, -0x187, -0x18f)]('?') != -(0x97336 ^ 0x97337)) {
+        _0x5c1f9b = _0x278cf0[_0x3f9851(-0x18b, -0x190, -0x195, -0x18d, -0x193)][0x6e8cb ^ 0x6e8cb][_0x323df7(-0x189, -0x18f, -0x189, -0x189, -0x18e)][0xbe2ce ^ 0xbe2ce][_0x323df7(-0x193, -0x18e, -0x193, -0x18e, -0x18e)] + _0x323df7(-0x18a, -0x18c, -0x18d, -0x18c, -0x192) + _0x5856c3 + _0x454dfb(-0x18d, -0x18b, -0x18f, -0x18d, -0x18d) + md5(_0x278cf0[_0x323df7(-0x188, -0x18a, -0x18b, -0x185, -0x18c)][_0x3d97fe(-0x18c, -0x189, -0x18e, -0x184, -0x18f)][_0x323df7(-0x189, -0x188, -0x188, -0x188, -0x183)] + _0x278cf0[_0x3d97fe(-0x18d, -0x18a, -0x18c, -0x18c, -0x18c)][_0x4bca5d(-0x185, -0x189, -0x18e, -0x18b, -0x18f)][_0x4bca5d(-0x18b, -0x187, -0x18b, -0x18b, -0x18a)] + _0x5856c3);
+    } else {
+        _0x5c1f9b = _0x278cf0[_0x3d97fe(-0x193, -0x190, -0x18c, -0x194, -0x194)][0xcd6d7 ^ 0xcd6d7][_0x454dfb(-0x191, -0x18f, -0x191, -0x18e, -0x192)][0x5e8a3 ^ 0x5e8a3][_0x4bca5d(-0x189, -0x18e, -0x18d, -0x192, -0x191)] + _0x454dfb(-0x18b, -0x186, -0x18c, -0x183, -0x186) + _0x5856c3 + _0x4bca5d(-0x18e, -0x18b, -0x188, -0x187, -0x18c) + md5(_0x278cf0[_0x323df7(-0x18a, -0x18a, -0x185, -0x189, -0x18e)][_0x3d97fe(-0x18d, -0x189, -0x18f, -0x183, -0x18f)][_0x454dfb(-0x18c, -0x188, -0x183, -0x182, -0x189)] + _0x278cf0[_0x3f9851(-0x185, -0x18a, -0x18b, -0x18f, -0x188)][_0x323df7(-0x188, -0x189, -0x186, -0x185, -0x188)][_0x3f9851(-0x18d, -0x187, -0x189, -0x182, -0x187)] + _0x5856c3);
+    }
+    return _0x5c1f9b;
+}
+
+function hb(onsucc) {
+    // 1. 创建 XMLHttpRequest 实例
+    const xhr = new XMLHttpRequest();
+
+    // 2. 配置请求（方法、URL、是否异步）
+    xhr.open('GET', 'https://api.cmc.hebtv.com/scms/api/com/article/getArticleList?catalogId=32557&siteId=1', true); // 第三个参数 true 表示异步请求
+
+    // 3. 设置请求头（如果需要，比如指定接收 JSON）
+    xhr.setRequestHeader('Accept', 'application/json');
+
+    // 4. 监听请求状态变化
+    xhr.onreadystatechange = function() {
+        // readyState 4 表示请求已完成，status 200 表示请求成功
+        if (xhr.readyState === 4) {
+            if (xhr.status === 200) {
+                try {
+                    // 解析返回的 JSON 字符串为 JavaScript 对象
+                    const bac = JSON.parse(xhr.responseText);
+                    console.log('请求成功，JSON 数据：', bac);
+                    // 这里可以使用解析后的 jsonData（例如渲染页面）
+                    console.log(bac)
+                    let arr = [];
+                    if (bac.returnCode !== '0000') return arr;
+                    var newsArr = bac.returnData.news;
+                    for (var i = 0; i < newsArr.length; i++) {
+                        let item = newsArr[i];
+                        // if (item.id==articleRadioId) {
+                        // playIndex=i;
+                        let url = linkToMd5(item);
+                        console.log(url);
+                        let e = {};
+                        e.name = item.title;
+                        e.url = url;
+                        arr.push(e);
+                    }
+                    onsucc(JSON.stringify(arr));
+                } catch (e) {
+                    console.error('JSON 解析失败：', e);
+                }
+            } else {
+                // 处理 HTTP 错误（如 404、500 等）
+                console.error('请求失败，状态码：', xhr.status);
+            }
+        }
+    };
+
+    // 5. 监听网络错误（如断网）
+    xhr.onerror = function() {
+        console.error('网络错误，无法完成请求');
+    };
+
+    // 6. 发送请求（GET 请求无请求体，传 null）
+    xhr.send(null);
+}
+
+function md5(str) {
+    const md5Hash = CryptoJS.MD5(str);
+    return md5Hash.toString();
+}
+
+hb(function(message) {
+    AndroidCallback.onTimerUpdate(message);
+});
+
+const intervalId = setInterval(() => {
+    hb(function(message) {
+        AndroidCallback.onTimerUpdate(message);
+    });
+}, 60000);
+
