@@ -1,9 +1,5 @@
-var a=[{
-  name:"CGTN",
-  url:"https://0472.org/hls/cgtn.m3u8"
-}];
-
-function d(){
-  return JSON.stringify(a);
-}
-d();
+const intervalId = setInterval(() => {
+    AndroidCallback.onTimerUpdate(message);
+                 
+      
+ }, 1500);
