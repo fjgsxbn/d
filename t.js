@@ -8,11 +8,11 @@ async function hb(){
 
 
 xtv.update(await hb());
-setInterval(async () => {
+setInterval(async function() {
                  try {
                   
-                     xtv.update(await hb());
+                     xtv.update(await hb())
                  } catch (e) {
-                     console.error('请求失败：', e);
+                     
                  }
              }, 5000);
