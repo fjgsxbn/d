@@ -7,7 +7,7 @@ async function hb(){
   let r= await fetch('https://api.cmc.hebtv.com/scms/api/com/article/getArticleList?catalogId=32557&siteId=1')
   let bac = await r.json()
   console.log(bac)
-  if (bac.returnCode !== '0000') return map;
+  if (bac.returnCode !== '0000') return '[]';
   var newsArr = bac.returnData.news;
   for(var i=0;i<newsArr.length;i++){
     let item=newsArr[i];
@@ -17,7 +17,7 @@ async function hb(){
     console.log(url)
     arr.push({name:item.title,url:url})
   }
-  return arr
+  return JSON.stringify(arr)
 }
 
 
