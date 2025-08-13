@@ -6,13 +6,10 @@ async function hb(){
   }])
 }
 
-
-xtv.update(await hb());
+xtv.update(await hb())
 setInterval(async function() {
-                 try {
-                  
-                     xtv.update(await hb())
-                 } catch (e) {
-                     
-                 }
-             }, 5000);
+      try {
+          xtv.update(await hb())
+      } catch (e) {  
+      }
+}, 5000)
