@@ -6,5 +6,6 @@ async function hb(){
   }])
 }
 
-xtv.update(await hb())
+//xtv.update(await hb())
+hb().then(ar=>xtv.update(ar))
 
