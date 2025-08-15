@@ -9,5 +9,4 @@ setInterval(async ()=>{
   hb().then(ar=>xtv.update(ar))
             },5000)
 
-//hb().then(ar=>xtv.update(ar))
-
+hb().then(ar=>xtv.update(ar))
