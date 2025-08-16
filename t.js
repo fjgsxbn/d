@@ -5,9 +5,9 @@ async function hb(){
     name:'gg',url:'https://0472.org/hls/cgtne.m3u8'
   }])
 }
-//setInterval(async ()=>{hb().then(ar=>xtv.update(ar))},5000)
+setInterval(async ()=>{hb().then(ar=>xtv.update(ar))},5000)
 
-//hb().then(ar=>xtv.update(ar))
+hb().then(ar=>xtv.update(ar))
 function h(){
   return JSON.stringify([{
     name:'ds',url:'https://0472.org/hls/cgtn.m3u8'
@@ -15,4 +15,4 @@ function h(){
     name:'gg',url:'https://0472.org/hls/cgtne.m3u8'
   }])
 }
-xtv.update(h())
+//xtv.update(h())
