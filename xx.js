@@ -1,5 +1,8 @@
 function hs(){
-  return [{name:'CGTN',url:'https://0472.org/hls/cgtn.m3u8'
+  return [{name:'衡水1',url:'http://hls.hsrtv.cn/live/hshstv1.m3u8'
+  },{
+    name:'衡水2',url:'http://hls.hsrtv.cn/live/hshstv2.m3u8'
+  }.{name:'CGTN',url:'https://0472.org/hls/cgtn.m3u8'
   },{
     name:'CGTNE',url:'https://0472.org/hls/cgtne.m3u8'
   }]
