@@ -1,4 +1,9 @@
-
+function hs(){
+  return [{name:'CGTN',url:'https://0472.org/hls/cgtn.m3u8'
+  },{
+    name:'CGTNE',url:'https://0472.org/hls/cgtne.m3u8'
+  }]
+}
 
 
 async function hb(){
